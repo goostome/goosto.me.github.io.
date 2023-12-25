@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/goosto.me.github.io./static/css/main.fdaf5dd5.css",
+    "main.js": "/goosto.me.github.io./static/js/main.b8d8143f.js",
+    "static/js/653.469d946b.chunk.js": "/goosto.me.github.io./static/js/653.469d946b.chunk.js",
+    "static/js/609.db286b08.chunk.js": "/goosto.me.github.io./static/js/609.db286b08.chunk.js",
+    "static/js/281.6008cebe.chunk.js": "/goosto.me.github.io./static/js/281.6008cebe.chunk.js",
+    "static/js/333.e5fb785d.chunk.js": "/goosto.me.github.io./static/js/333.e5fb785d.chunk.js",
+    "static/js/326.231da048.chunk.js": "/goosto.me.github.io./static/js/326.231da048.chunk.js",
+    "static/js/758.906419ef.chunk.js": "/goosto.me.github.io./static/js/758.906419ef.chunk.js",
+    "static/js/313.d90b2672.chunk.js": "/goosto.me.github.io./static/js/313.d90b2672.chunk.js",
+    "static/media/logo.png": "/goosto.me.github.io./static/media/logo.557b6cba1738736ce3d1.png",
+    "index.html": "/goosto.me.github.io./index.html",
+    "main.fdaf5dd5.css.map": "/goosto.me.github.io./static/css/main.fdaf5dd5.css.map",
+    "main.b8d8143f.js.map": "/goosto.me.github.io./static/js/main.b8d8143f.js.map",
+    "653.469d946b.chunk.js.map": "/goosto.me.github.io./static/js/653.469d946b.chunk.js.map",
+    "609.db286b08.chunk.js.map": "/goosto.me.github.io./static/js/609.db286b08.chunk.js.map",
+    "281.6008cebe.chunk.js.map": "/goosto.me.github.io./static/js/281.6008cebe.chunk.js.map",
+    "333.e5fb785d.chunk.js.map": "/goosto.me.github.io./static/js/333.e5fb785d.chunk.js.map",
+    "326.231da048.chunk.js.map": "/goosto.me.github.io./static/js/326.231da048.chunk.js.map",
+    "758.906419ef.chunk.js.map": "/goosto.me.github.io./static/js/758.906419ef.chunk.js.map",
+    "313.d90b2672.chunk.js.map": "/goosto.me.github.io./static/js/313.d90b2672.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdaf5dd5.css",
+    "static/js/main.b8d8143f.js"
+  ]
+}
