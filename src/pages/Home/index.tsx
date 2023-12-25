@@ -18,7 +18,8 @@ const Home = () => {
       <ScrollToTop />
       <ContentBlock
         type="right"
-        title={IntroContent.title}
+//         title={`${IntroContent.title} - UNDER CONSTRUCTION`}
+        title="UNDER CONSTRUCTION"
         content={IntroContent.text}
         icon="developer.svg"
         id="intro"
