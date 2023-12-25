@@ -14,6 +14,8 @@ import {
   Label,
   Outline,
   Span,
+  LogoText,
+  TaglineText
 } from "./styles";
 
 const Header = ({ t }: any) => {
@@ -46,13 +48,8 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>{t("Product")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
-        >
-          <Span>
-            <Button>{t("Contact")}</Button>
-          </Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("contact")}>
+          <Span>{t("Register")}</Span>
         </CustomNavLinkSmall>
       </>
     );
@@ -63,7 +60,9 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <img src={require("./logo.png")} alt="Goosto.me Logo" />
+              <LogoText>GOOSTO</LogoText>
+                <TaglineText>Tasteocracy, Democratizing Gastronomy</TaglineText>
           </LogoContainer>
           <NotHidden>
             <MenuItem />

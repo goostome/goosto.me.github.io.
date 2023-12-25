@@ -13,7 +13,38 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    max-width: 140px;  // Adjust the max-width as needed
+    width: 20%;       // Ensures the image takes the full width of the container
+    height: auto;      // Maintains the aspect ratio while resizing
+  }
 `;
+
+export const LogoText = styled("p")`
+  margin-top: 5px;
+    font-size: 32px;               // Adjust the font size as needed
+    font-weight: 800;              // Set the font weight to bold
+    color: #000;                   // Set the text color to black
+    font-family: 'Playfair Display', serif;  // Use Playfair Display font
+    text-transform: uppercase;     // Convert text to uppercase
+    letter-spacing: 3px;           // Adjust the letter spacing as needed
+    line-height: 1;
+`;
+
+export const TaglineText = styled("p")`
+  font-size: 14px;   // Adjust the font size as needed
+  font-weight: 800;  // Adjust the font weight as needed
+  color: #EB8E38;       // Adjust the text color as needed
+  font-family: 'Playfair Display', serif;  // Use Playfair Display font
+  text-transform: uppercase;     // Convert text to uppercase
+  letter-spacing: 3px;           // Adjust the letter spacing as needed
+  line-height: 0.5;
+`;
+
 
 export const NavLink = styled("div")`
   display: inline-block;
@@ -93,12 +124,12 @@ export const Outline = styled(MenuOutlined)<any>`
 export const Span = styled("span")`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  font-family: 'Roboto', sans-serif; /* Apply the Roboto font */
+    font-weight: bold; /* Make the text bold at all times */
 
   &:hover,
   &:active,
   &:focus {
     color: rgb(255, 130, 92);
-    text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
   }
 `;
