@@ -1,13 +1,9 @@
 {
   "title": "Join the Culinary Revolution",
-  "text": "Become a part of a global movement that celebrates the art of dining. Whether you're a seasoned foodie or a budding gastronome, GOOSTO welcomes you to a world where your culinary experiences take center stage.",
-  "button": [
-    {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
-    }
+  "text": "",
+  "paragraphs": [
+    "Join the Culinary Revolution at GOOSTO, a global movement celebrating the art of dining. Explore, share, and make gastronomy a shared adventure.",
+    "Welcome to a world where culinary experiences take center stage. Immerse yourself in the fusion of technology and culinary arts, transforming dining into a vibrant, shared journey.",
+    "Whether you're a seasoned foodie or a budding gastronome, GOOSTO invites you to be part of a community that embraces the joy of discovery. Elevate your culinary experiences with us and become a vital force in reshaping the future of gastronomy."
   ]
 }

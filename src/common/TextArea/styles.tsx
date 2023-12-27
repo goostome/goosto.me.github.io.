@@ -15,6 +15,6 @@ export const StyledTextArea = styled("textarea")`
 
 export const Label = styled("label")`
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-transform: capitalize;
 `;

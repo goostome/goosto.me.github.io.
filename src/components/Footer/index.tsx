@@ -47,31 +47,6 @@ const Footer = ({ t }: any) => {
 
   return (
     <>
-      <FooterSection>
-        <Container>
-          <Row
-             justify="space-around"
-             align="middle"
-          >
-              <Large left="true" to="/">
-                {t("Policy")}
-              </Large>
-              <Large left="true" to="/">
-                {t("About us")}
-              </Large>
-              <Large left="true" to="/">
-                  {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
-
-          </Row>
-        </Container>
-      </FooterSection>
       <Extra>
         <Container border={true}>
           <Row

@@ -16,6 +16,7 @@ const LeftContentBlock = ({
   icon,
   title,
   content,
+  paragraphs,
   section,
   t,
   id,
@@ -25,12 +26,16 @@ const LeftContentBlock = ({
       <Fade direction="left">
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            <img src="https://online.jwu.edu/wp-content/uploads/2023/06/shutterstock_18738304752028129-min-3.jpg" width="100%" height="100%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
+              {paragraphs &&
+                              paragraphs.map((item: any, id: number) => (
+                                <p key={id}>{item}</p>
+                              ))}
               <ServiceWrapper>
                 <Row justify="space-between">
                   {typeof section === "object" &&

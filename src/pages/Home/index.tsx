@@ -5,55 +5,41 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import TeamContent from "../../content/TeamContent.json";
+import PrivacyContent from "../../content/PrivacyContent.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
+
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+
+const TeamBlock = lazy(() => import("../../components/TeamBlock"));
+const PrivacyBlock = lazy(() => import("../../components/PrivacyBlock"));
 
 const Home = () => {
   return (
     <Container>
-      <ScrollToTop />
       <ContentBlock
-        type="right"
-//         title={`${IntroContent.title} - UNDER CONSTRUCTION`}
-        title="UNDER CONSTRUCTION"
+        type="left"
+        title={IntroContent.title}
         content={IntroContent.text}
-        icon="developer.svg"
-        id="intro"
+        paragraphs={IntroContent.paragraphs}
+        icon="https://online.jwu.edu/wp-content/uploads/2023/06/shutterstock_18738304752028129-min-3.jpg"
+        id="mission"
       />
-{/*       <MiddleBlock */}
-{/*         title={MiddleBlockContent.title} */}
-{/*         content={MiddleBlockContent.text} */}
-{/*         button={MiddleBlockContent.button} */}
-{/*       /> */}
-{/*       <ContentBlock */}
-{/*         type="left" */}
-{/*         title={AboutContent.title} */}
-{/*         content={AboutContent.text} */}
-{/*         section={AboutContent.section} */}
-{/*         icon="graphs.svg" */}
-{/*         id="about" */}
-{/*       /> */}
-{/*       <ContentBlock */}
-{/*         type="right" */}
-{/*         title={MissionContent.title} */}
-{/*         content={MissionContent.text} */}
-{/*         icon="product-launch.svg" */}
-{/*         id="mission" */}
-{/*       /> */}
-{/*       <ContentBlock */}
-{/*         type="left" */}
-{/*         title={ProductContent.title} */}
-{/*         content={ProductContent.text} */}
-{/*         icon="waving.svg" */}
-{/*         id="product" */}
-{/*       /> */}
+      <TeamBlock teamData={TeamContent.teamMembers} id="about"/>
+      <PrivacyBlock
+        title={PrivacyContent.title}
+        paragraphs={PrivacyContent.paragraphs}
+        icon="developer.svg"
+        id="privacy"
+      />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
+        paragraphs={ContactContent.paragraphs}
         id="contact"
       />
     </Container>

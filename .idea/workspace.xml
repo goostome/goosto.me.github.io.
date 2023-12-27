@@ -24,13 +24,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yohai/dev/goosto_website/src/components/Header"
+    "last_opened_file_path": "/Users/yohai/dev/goosto_website/src/components/PrivacyBlock"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Header" />
-      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/src/components/PrivacyBlock" />
+      <recent name="$PROJECT_DIR$/src/content" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/common/ScrollToTop" />
+      <recent name="$PROJECT_DIR$/src/components/TeamBlock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Header" />
