@@ -7,7 +7,7 @@ import Router from "./router";
 import i18n from "./translation";
 
 const App = () => (
-  <BrowserRouter basename="/goosto.me.github.io">
+  <BrowserRouter basename="/goosto.me.github.io./">
     <I18nextProvider i18n={i18n}>
       <Router />
     </I18nextProvider>
