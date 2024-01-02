@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goosto.me.github.io./static/css/main.fdaf5dd5.css",
-    "main.js": "/goosto.me.github.io./static/js/main.c50ab469.js",
+    "main.js": "/goosto.me.github.io./static/js/main.57bac82d.js",
     "static/js/858.694129fa.chunk.js": "/goosto.me.github.io./static/js/858.694129fa.chunk.js",
     "static/js/639.26c6b00d.chunk.js": "/goosto.me.github.io./static/js/639.26c6b00d.chunk.js",
     "static/js/281.2d19c2ff.chunk.js": "/goosto.me.github.io./static/js/281.2d19c2ff.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/yohai.jpeg": "/goosto.me.github.io./static/media/yohai.890eea13dd1f53b2fda8.jpeg",
     "index.html": "/goosto.me.github.io./index.html",
     "main.fdaf5dd5.css.map": "/goosto.me.github.io./static/css/main.fdaf5dd5.css.map",
-    "main.c50ab469.js.map": "/goosto.me.github.io./static/js/main.c50ab469.js.map",
+    "main.57bac82d.js.map": "/goosto.me.github.io./static/js/main.57bac82d.js.map",
     "858.694129fa.chunk.js.map": "/goosto.me.github.io./static/js/858.694129fa.chunk.js.map",
     "639.26c6b00d.chunk.js.map": "/goosto.me.github.io./static/js/639.26c6b00d.chunk.js.map",
     "281.2d19c2ff.chunk.js.map": "/goosto.me.github.io./static/js/281.2d19c2ff.chunk.js.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.fdaf5dd5.css",
-    "static/js/main.c50ab469.js"
+    "static/js/main.57bac82d.js"
   ]
 }
