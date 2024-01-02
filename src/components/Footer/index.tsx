@@ -56,7 +56,7 @@ const Footer = ({ t }: any) => {
           >
             <FooterContainer>
               <SocialLink
-                href="https://www.linkedin.com/in/yohaiazriel/"
+                href=""
                 src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-512.png"
               />
               <SocialLink
@@ -64,15 +64,15 @@ const Footer = ({ t }: any) => {
                 src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_LinkedIn-512.png"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/yohaiazriel/"
+                href=""
                 src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-512.png"
               />
               <SocialLink
-                 href="https://www.linkedin.com/in/yohaiazriel/"
+                 href=""
                  src="https://static-00.iconduck.com/assets.00/social-instagram-icon-2048x2048-xuel0xhc.png"
               />
               <SocialLink
-                  href="https://www.linkedin.com/in/yohaiazriel/"
+                  href=""
                  src="https://cdn0.iconfinder.com/data/icons/logos-brands-7/512/TikTok_logo_app0-512.png"
               />
 
